@@ -63,6 +63,6 @@ Special Case when moving the task at the end/bottom most:
 | POST | /api/v1/tasks | { "name": `task name`, "description": `task description` } | Create a task |
 | PATCH/PUT | /api/v1/tasks/`id` | { "name": `task name`, "description": `task description` } | Update a task |
 | DELETE | /api/v1/tasks/`id` | N/A | Delete a task |
-| POST | /api/v1/tasks/`id`/move_task | { "target_position_ids": `target position ids` | Move a task |
+| POST | /api/v1/tasks/`id`/move_task | { "target_position_ids": `target position ids` } | Move a task |
 
 
